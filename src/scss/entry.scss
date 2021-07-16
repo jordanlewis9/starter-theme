@@ -1,11 +1,14 @@
 @import 'fonts';
-@import 'variables';
 @import 'deps';
 @import 'wordpresscore';
+@import 'variables';
 @import 'helpers';
 @import 'responsive';
 @import 'global';
+@import 'utility-nav';
 @import 'header';
+@import 'primary-nav';
+@import 'footer-nav';
 @import 'footer';
 @import 'buttons';
 @import 'accordions';

@@ -9,6 +9,7 @@
  * @package Starter_Theme
  */
 ?>
+		<?php get_template_part('template-parts/navs/nav', 'footer'); ?>
 		<a href="#0" class="cd-top">Top</a>
 		<?php wp_footer(); ?>
 		<?php if(have_rows('footer_scripts', 'options')) : ?>

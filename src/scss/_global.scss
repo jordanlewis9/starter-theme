@@ -1,6 +1,44 @@
 /*
  * Global elements
  */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $h-color;
+}
+h1 {
+	font-size: $h1-size;
+	line-height: $h1-height;
+	letter-spacing: $h1-space;
+}
+h2 {
+	font-size: $h2-size;
+	line-height: $h2-height;
+	letter-spacing: $h2-space;
+}
+h3 {
+	font-size: $h3-size;
+	line-height: $h3-height;
+	letter-spacing: $h3-space;
+}
+h4 {
+	font-size: $h4-size;
+	line-height: $h4-height;
+	letter-spacing: $h4-space;
+}
+h5 {
+	font-size: $h5-size;
+	line-height: $h5-height;
+	letter-spacing: $h5-space;
+}
+h6 {
+	font-size: $h6-size;
+	line-height: $h6-height;
+	letter-spacing: $h6-space;
+}
 ::selection {
 	background: $brand;
 	color: #fff;

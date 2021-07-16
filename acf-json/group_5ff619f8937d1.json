@@ -1,0 +1,110 @@
+{
+    "key": "group_5ff619f8937d1",
+    "title": "Content",
+    "fields": [
+        {
+            "key": "field_5ffdfc0b928c4",
+            "label": "Content",
+            "name": "content",
+            "type": "flexible_content",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_5ffdfc1281915": {
+                    "key": "layout_5ffdfc1281915",
+                    "name": "space",
+                    "label": "Space",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_5ffdfc1a928c5",
+                            "label": "Height",
+                            "name": "height",
+                            "type": "number",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.333333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": 50,
+                            "placeholder": 50,
+                            "prepend": "",
+                            "append": "px",
+                            "min": "",
+                            "max": "",
+                            "step": ""
+                        },
+                        {
+                            "key": "field_5ffdfc31928c6",
+                            "label": "Background",
+                            "name": "background",
+                            "type": "extended-color-picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.333333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "#FFFFFF",
+                            "color_palette": "",
+                            "hide_palette": 0
+                        },
+                        {
+                            "key": "field_5ffdfc42928c7",
+                            "label": "Full Width",
+                            "name": "full_width",
+                            "type": "true_false",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.333333",
+                                "class": "",
+                                "id": ""
+                            },
+                            "message": "",
+                            "default_value": 0,
+                            "ui": 0,
+                            "ui_on_text": "",
+                            "ui_off_text": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "button_label": "Add Row",
+            "min": "",
+            "max": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "acf-page-template.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1626459471
+}
