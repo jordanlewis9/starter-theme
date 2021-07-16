@@ -2,7 +2,7 @@ Starter Theme
 ============
 
 ## To get started:
-1. Install required plugins located in /in/plugins
+1. Install required plugins located in /inc/plugins
 2. `npm install` or `npm install -D`
 3. `npm run dev`
 
