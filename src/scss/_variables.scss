@@ -1,0 +1,98 @@
+
+// Fonts
+
+// Colors
+$brand-opacity:  rgba(0,40,85,.8);
+$brand:		     rgba(0,40,85,1);
+$red: 			 #C8102E;
+$dark-gray: 	 #444444;
+$light-gray: 	 #F8F8F8;
+$h-color: 		 #262525;
+$p-color: 		 #7D7D7D;
+$footer-bg: 	 #2B2B2B;
+$theme-colors: (
+    "primary": $brand,
+);
+$container-max-widths: (
+	sm: 767px,
+	md: 991px,
+	lg: 1139px,
+	xl: 80%
+);
+
+// Fonts
+$headings-font-weight:   700;
+$font-size-base:         1.125rem;
+$line-height-base:       1.61111;
+$h1-font-size:           42px;
+$h2-font-size:           36px;
+$h3-font-size:           28px;
+$h4-font-size:           26px;
+$h5-font-size:           24px;
+$h6-font-size:           22px;
+
+// Container width
+$inner-width: 1252px;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $h-color;
+}
+h1 {
+	font-size: 62px;
+	line-height: 66px;
+	letter-spacing: 1.35px;
+}
+h2 {
+	font-size: 48px;
+	line-height: 50px;
+	letter-spacing: 1.26px;
+}
+h3 {
+	font-size: 38px;
+	line-height: 45px;
+	letter-spacing: 1px;
+}
+h4 {
+	font-size: 28px;
+	line-height: 38px;
+	letter-spacing: .74px;
+}
+h5 {
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 1.89px;
+}
+h6 {
+	font-size: 16px !important;
+	line-height: 22px !important;
+	letter-spacing: 1px !important;
+}
+html,
+body,
+p,
+ul,
+ol,
+li,
+span, {
+	color: $p-color;
+	font-size: 18px;
+	line-height: 29px;
+	letter-spacing: 0;
+}
+a {
+	font-size: 18px;
+	line-height: 29px;
+	letter-spacing: 0;
+}
+strong,
+b {
+	color: $p-color;
+	font-size: 18px;
+	line-height: 29px;
+	letter-spacing: 0;
+}
