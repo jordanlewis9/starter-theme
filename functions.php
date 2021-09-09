@@ -32,8 +32,7 @@ if (!function_exists('starter_theme_setup')) :
 		// navigation menus
 		register_nav_menus( array(
 			'primary'   => 'Primary Menu',
-			'utility'   => 'Utility Menu',
-			'footer'   	=> 'Footer Menu'
+			'utility'   => 'Utility Menu'
 		));
 
 		// remove ul from wp_nav_menu for quicker and/or better access to selectors

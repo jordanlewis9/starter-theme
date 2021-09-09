@@ -15,6 +15,13 @@ require_once get_template_directory() . '/inc/vendor/class-tgm-plugin-activation
  */
 function starter_register_required_plugins() {
 	$plugins 	= array(
+//		array(
+//			'name'      			=> 'ForeFront Plugins',
+//			'slug'      			=> 'ffw-plugins',
+//			'force_activation'   	=> false,
+//			'required'  			=> true,
+//			'source'    			=> 'https://github.com/infinityhaver/ffw-plugins/archive/refs/heads/main.zip',
+//		),
 		array(
 			'name'      			=> 'Advanced Custom Fields Pro',
 			'slug'      			=> 'advanced-custom-fields-pro',
@@ -30,18 +37,39 @@ function starter_register_required_plugins() {
 			'source'    			=> 'https://github.com/infinityhaver/gravityforms/archive/refs/heads/main.zip',
 		),
 		array(
-			'name'      			=> 'Gravity Forms Advanced Post Creation',
-			'slug'      			=> 'gravityformsadvancedpostcreation',
-			'force_activation'   	=> false,
-			'required'  			=> true,
-			'source'    			=> 'https://github.com/infinityhaver/gravityformsadvancedpostcreation/archive/refs/heads/main.zip',
-		),
-		array(
 			'name'      			=> 'FacetWP',
 			'slug'      			=> 'facetwp',
 			'force_activation'   	=> false,
 			'required'  			=> true,
 			'source'    			=> 'https://github.com/infinityhaver/facetwp/archive/refs/heads/main.zip',
+		),
+		array(
+			'name'      			=> 'WP All Import Pro',
+			'slug'      			=> 'wp-all-import-pro',
+			'force_activation'   	=> false,
+			'required'  			=> true,
+			'source'    			=> 'https://github.com/infinityhaver/wp-all-import-pro/archive/refs/heads/main.zip',
+		),
+		array(
+			'name'      			=> 'WP All Import ACF Add-On',
+			'slug'      			=> 'wpai-acf-add-on',
+			'force_activation'   	=> false,
+			'required'  			=> true,
+			'source'    			=> 'https://github.com/infinityhaver/wpai-acf-add-on/archive/refs/heads/main.zip',
+		),
+		array(
+			'name'      			=> 'WP All Export Pro',
+			'slug'      			=> 'wp-all-export-pro',
+			'force_activation'   	=> false,
+			'required'  			=> true,
+			'source'    			=> 'https://github.com/infinityhaver/wp-all-export-pro/archive/refs/heads/main.zip',
+		),
+		array(
+			'name'      			=> 'WP All Export ACF Add-On',
+			'slug'      			=> 'wpae-acf-add-on',
+			'force_activation'   	=> false,
+			'required'  			=> true,
+			'source'    			=> 'https://github.com/infinityhaver/wpae-acf-add-on/archive/refs/heads/main.zip',
 		),
 		array(
 			'name'      			=> 'Admin Columns Pro',
@@ -76,8 +104,20 @@ function starter_register_required_plugins() {
 			'force_activation'   	=> false,
 		),
 		array(
+			'name'      			=> 'BulkPress',
+			'slug'      			=> 'bulkpress',
+			'required'  			=> true,
+			'force_activation'   	=> false,
+		),
+		array(
 			'name'      			=> 'Relevanssi',
 			'slug'      			=> 'relevanssi',
+			'required'  			=> true,
+			'force_activation'   	=> false,
+		),
+		array(
+			'name'      			=> 'Redirection',
+			'slug'      			=> 'redirection',
 			'required'  			=> true,
 			'force_activation'   	=> false,
 		)

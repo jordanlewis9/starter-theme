@@ -56,7 +56,7 @@
                                 "class": "",
                                 "id": ""
                             },
-                            "default_value": "#FFFFFF",
+                            "default_value": "rgba(255,255,255,0)",
                             "color_palette": "",
                             "hide_palette": 0
                         },
@@ -106,5 +106,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "modified": 1626459471
+    "modified": 1631201808
 }

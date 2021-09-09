@@ -17,7 +17,7 @@ function button( $atts, $content ) {
 }
 add_shortcode( 'button', 'button' );
 
-// youtube
+// [youtube]
 function youtube( $atts, $content ) {
 	$a = shortcode_atts( array(
 		'url' => ''
